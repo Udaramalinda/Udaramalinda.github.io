@@ -6,38 +6,68 @@ document.addEventListener("DOMContentLoaded", function() {
 
       1: 
         { 
-        name: 'ARUCI Bank Management System', 
-        year: 2023, 
-        url: 'https://github.com/Udaramalinda/BankProject-DBMS',
-        stack: 'React, NodeJS, Express, MySQL',
-        contribution: 'Frontend and Backend',
-        description: "This project was to build a bank management system that supported branch\
-        management, account management, employee management, etc. We were to use\
-        various database management principles to build a robust system that could handle\
-        errors, concurrency, etc.",
-        image1: 'assets/img/portfolio/bank-management-system/home.png',
-        image2: 'assets/img/portfolio/bank-management-system/manager.png',
-        image3: 'assets/img/portfolio/bank-management-system/customer.png',
+          name: 'ARUCI Bank Management System', 
+          year: 2023, 
+          url: 'https://github.com/Udaramalinda/BankProject-DBMS',
+          stack: 'React, NodeJS, Express, MySQL',
+          contribution: 'Frontend and Backend',
+          description: "This project was to build a bank management system that supported branch\
+          management, account management, employee management, etc. We were to use\
+          various database management principles to build a robust system that could handle\
+          errors, concurrency, etc.",
+          image1: 'assets/img/portfolio/bank-management-system/home.png',
+          image2: 'assets/img/portfolio/bank-management-system/customer.png',
+          image3: 'assets/img/portfolio/bank-management-system/manager.png'
         },
 
       2: 
-        { name: 'Alice', age: 25 }
+        { 
+          name: 'MIS Child Management System', 
+          year: 2023, 
+          url: 'https://github.com/Udaramalinda/MIS-Project',
+          stack: 'React, NodeJS, Express, PostgreSQL',
+          contribution: 'Frontend and Backend',
+          description: "This is a project to build a Child Orphan Management System to manage orphanage\
+          management, child profiles, case management, children placement and adoption,\
+          Document management, etc. We create a web frontend and mobile frontend for this\
+          system.",
+          image1: 'assets/img/portfolio/child-management-system/home.png',
+          image2: 'assets/img/portfolio/child-management-system/register.png',
+          image3: 'assets/img/portfolio/child-management-system/login.png', 
+        },
+
+      3: 
+        { 
+          name: 'Sun Travels Hotel Management System', 
+          year: 2023, 
+          url: '#',
+          stack: 'Angular, SpringBoot, PostgreSQL',
+          contribution: 'Complete Project',
+          description: "This is a project to build a Child Orphan Management System to manage orphanage\
+          management, child profiles, case management, children placement and adoption,\
+          Document management, etc. We create a web frontend and mobile frontend for this\
+          system.",
+          image1: 'assets/img/portfolio/child-management-system/home.png',
+          image2: 'assets/img/portfolio/child-management-system/register.png',
+          image3: 'assets/img/portfolio/child-management-system/login.png',  
+        }
     };
     
-    // Display person data on the page
+    // Display project data on the page
     if (projectID && ProjectData[projectID]) {
       const project = ProjectData[projectID];
       document.getElementById('projectName').innerText = project.name;
+      document.getElementById('projectBreadScrum').innerText = project.name;
       document.getElementById('projectYear').innerText = project.year;
       document.getElementById('projectURL').href = project.url;
       document.getElementById('projectStack').innerText = project.stack;
       document.getElementById('projectContribution').innerText = project.contribution;
       document.getElementById('projectDescription').innerText = project.description;
-      document.getElementById('projectImage1').src = project.image1;
-      document.getElementById('projectImage2').src = project.image2;
-      document.getElementById('projectImage3').src = project.image3;
+      document.getElementById('projectImageOne').src = project.image1;
+      document.getElementById('projectImageTwo').src = project.image2;
+      document.getElementById('projectImageThree').src = project.image3;
     } else {
-      document.getElementById('personData').innerText = 'Person not found';
+      document.getElementById('projectData').innerText = 'Project not Found';
     }
   });
   
