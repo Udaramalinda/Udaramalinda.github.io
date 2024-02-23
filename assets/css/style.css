@@ -587,6 +587,9 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  border: #040b14 solid 2px;
+  border-radius: 10px;
+  /* border-style: solid; */
 }
 
 .portfolio .portfolio-wrap::before {
@@ -650,6 +653,11 @@ section {
 .portfolio-details {
   padding-top: 40px;
 }
+
+/* .portfolio-details .swiper-wrapper {
+  border: #040b14 solid 2px;
+  border-radius: 10px;
+} */
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
