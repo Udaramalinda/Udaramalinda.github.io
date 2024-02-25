@@ -106,9 +106,35 @@ document.addEventListener("DOMContentLoaded", function() {
           emails, automated birthday greetings for close contacts, and customizable signatures,\
           demonstrating proficiency in Design Patterns and Object-Oriented Programming\
           principles.",
-          image1: 'assets/img/portfolio/pintos/SS1.png',
-          image2: 'assets/img/portfolio/pintos/SS2.png',
-          image3: 'assets/img/portfolio/pintos/SS3.png',  
+          image1: 'assets/img/portfolio/email-client/logos.png',  
+        },
+      7: 
+        { 
+          name: 'Expense Management System', 
+          year: 2022, 
+          url: 'https://github.com/Udaramalinda/MobileApp-EmbeddedDatabase',
+          stack: 'Java, SQLite',
+          contribution: 'Complete Project',
+          description: "Developed an Android application to manage personal expenses, featuring the ability\
+          to add, edit, and delete expenses, view expenses by category, and generate monthly\
+          reports, showcasing proficiency in Android development and embedded database\
+          management.",
+          image1: 'assets/img/portfolio/expense-manager/home.png', 
+          image2: 'assets/img/portfolio/expense-manager/form.png', 
+        },
+      8: 
+        { 
+          name: 'OAuth 2.0 Authentication for Applications', 
+          year: 2024, 
+          url: 'https://github.com/Udaramalinda/OAuth2',
+          stack: 'PHP, HTML, CSS',
+          contribution: 'Complete Project',
+          description: "Developed an OAuth 2.0 authentication system for a web application, enabling users to\
+          log in using their Google account, showcasing proficiency in web development and\
+          security principles.",
+          image1: 'assets/img/portfolio/OAuth2/home.png', 
+          image2: 'assets/img/portfolio/OAuth2/google.png', 
+          image3: 'assets/img/portfolio/OAuth2/dashboard.png',
         }
     };
     
